@@ -1,0 +1,13 @@
+.logo {
+    border-radius: 50%;
+    width: 48px;
+    position: absolute;
+    top: -25px;
+}
+
+@media all and (min-width: 1440px) {
+    .logo {
+        width: 88px;
+        position: static;
+    }
+}

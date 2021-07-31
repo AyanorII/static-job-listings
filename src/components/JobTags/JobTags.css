@@ -1,0 +1,22 @@
+.tags-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.tag {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  padding: 0.5rem 0.35rem;
+  color: #5CA5A5;
+  border-radius: 5px;
+  background-color: #5ca5a528;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=JobTags.css.map */

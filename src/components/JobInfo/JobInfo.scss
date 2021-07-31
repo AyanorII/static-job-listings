@@ -1,0 +1,95 @@
+.job-info {
+
+    &__company {
+        font-weight: 700;
+        color: #5CA5A5;
+        font-size: 0.8125rem;
+    }
+
+    .chip {
+        border-radius: 30px;
+        color: #FFF;
+        font-weight: 700;
+        font-size: 0.6875rem;
+        line-height: 14px;
+        padding: 0.5rem 0.7rem 0.3rem;
+        margin-left: 0.5rem;
+
+        &--new {
+            background-color: #5CA5A5;
+        }
+
+        &--featured {
+            background-color: #2B3939;
+        }
+    }
+
+    &__position {
+        font-size: 0.9375rem;
+        line-height: 24px;
+    }
+
+    ul {
+        display: flex;
+        padding: 0;
+    }
+
+    li {
+        margin-left: 12px;
+        margin-right: 12px;
+        color: #7C8F8F;
+        font-size: 0.8125rem;
+        line-height: 1.5rem;
+
+        &:first-child {
+            margin-left: 0;
+            list-style: none;
+        }
+    }
+    
+    hr {
+        color: #FFF;
+        margin-bottom: 0;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .job-info {
+        flex-grow: 1;
+        display: grid;
+        grid-template-columns:1fr;
+        margin-left: 1.5rem;
+        // width: 100%;
+
+        &__company {
+            font-size: 14px;
+        }
+
+        &__position {
+            font-size: 18px;
+        }
+
+        &__top-container, &__position, ul {
+            grid-column: 1 / 2;
+        }
+
+        .tags {
+            grid-column: 2 / 3;
+            grid-row: 1 / 4;
+            justify-self: end;
+            align-self: center;
+        }
+
+        &__position, ul {
+            margin: 0;
+        }
+
+        li {
+            font-size: 0.9375rem;
+        }
+
+        hr {
+            display: none;
+        }
+    }
+}

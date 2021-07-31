@@ -1,0 +1,13 @@
+.header {
+    background: url("../../images/bg-header-mobile.svg"), #5CA5A5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 9.75rem;
+}
+
+@media all and (min-width: 1440px) {
+    .header {
+        background: url("../../images/bg-header-desktop.svg"), #5CA5A5;
+    }
+}

@@ -1,0 +1,42 @@
+.selected-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  width: 25%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.selected-tag {
+  width: 75px;
+  position: relative;
+  padding-right: 30px;
+  margin-top: 0;
+}
+
+.selected-tag::after {
+  padding-top: 10px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  content: url("../../images/icon-remove.svg");
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #5CA5A5;
+  width: 20px;
+}
+
+.clear {
+  font-weight: 700;
+  color: #7C8F8F;
+  justify-self: flex-end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=SelectedTags.css.map */
